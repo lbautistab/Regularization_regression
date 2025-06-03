@@ -1,5 +1,4 @@
 # 📉 **Regularización en Regresión: Domina el Sesgo-Varianza**
----
 
 🔬 *“La simplicidad no es una meta. Es el subproducto de una buena idea y expectativas modestas.” – Paul Rand*
 
