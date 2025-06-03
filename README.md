@@ -3,11 +3,11 @@
 
 🔬 *“La simplicidad no es una meta. Es el subproducto de una buena idea y expectativas modestas.” – Paul Rand*
 
+Source: [scikit-learn](http://scikit-learn.org/stable/modules/linear_model.html#ridge-regression)
+
 ## 🚀  **Métodos de regularización**
 
-- **Ridge Regression (L2)**
-
-Source: [scikit-learn](http://scikit-learn.org/stable/modules/linear_model.html#ridge-regression)
+1. **Ridge Regression (L2)**
 
 Para la estimación de los coeficientes en mínimos cuadrados debemos minimizar la suma de los errores al cuadrado. Para generar una regresión tipo rigde agregamos la penalización y mínimizamos la expresión:
 
@@ -17,7 +17,7 @@ $$\begin{equation}
 
 Donde la primera expresión es la suma de los errores al cuadrado y es un parámetro que debe ser tuneado.
 
-- **Lasso Regression (L1)**
+2. **Lasso Regression (L1)**
 
 A diferencia de Ridge, matemáticamente el único cambio es que ahora los coeficientes de la penalización están en valor absoluto en vez de elevados al cuadrado. Esto tiene efectos distintos a la Ridge:  
 
@@ -28,7 +28,7 @@ $$\begin{equation}
 \sum_{i=1}^n{(y_i - \beta_o - \sum_{j=1}^p{\beta_jx_{ij}})^2} + \lambda\sum_{j=1}^p{|\beta_{j}|}
 \end{equation}$$
 
-- **Elastic Net**
+3. **Elastic Net**
 
 Es una combinación de Ridge y Lasso. Se decide entonces qué peso se le da a cada método de penalización y se implementa la regresión:
 
