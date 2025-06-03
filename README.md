@@ -14,7 +14,7 @@ $$\begin{equation}
 \sum_{i=1}^n{(y_i - \beta_o - \sum_{j=1}^p{\beta_jx_{ij}})^2} + \lambda\sum_{j=1}^p{\beta_{j}^2}
 \end{equation}$$
 
-Donde la primera expresión es la suma de los errores al cuadrado y es un parámetro que debe ser tuneado.
+Donde la primera expresión es la suma de los errores al cuadrado y $$\lambda$$ es un parámetro que debe ser tuneado.
 
 2. **Lasso Regression (L1)**
 
